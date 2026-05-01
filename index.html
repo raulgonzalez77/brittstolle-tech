@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>galactic golf</title>
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Font Awesome CDN CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- CSS Animate CDN CSS -->
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      h1 {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- begin header -->
+    <header-component></header-component>
+    <!-- end header -->
+
+    <main>
+      <h1 class="animate__animated animate__bounce">Your one stop shop for everything golf</h1>
+      <!-- begin carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel/carousel-1.jpg" class="d-block w-100" alt="multiple golf balls" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Irons</h5>
+              <p>We carry all your favorite irons new and old</p>
+            </div>
+          </div>
+
+          <!-- video goes here -->
+          <div class="carousel-item">
+            <div class="ratio ratio-16x9">
+              <video autoplay loop muted id="my-vid">
+                <source src="https://videos.pexels.com/video-files/5455877/5455877-hd_1920_1080_30fps.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/carousel/carousel-2.jpg" class="d-block w-100" alt="tee shot" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Woods</h5>
+              <p>From drivers to woods, we have it all</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end carouosel -->
+
+      <!-- Begin Font Awesome Row -->
+      <div class="container-fluid text-center blinn-fa-container">
+        <div class="row">
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-golf-ball-tee blinn-fa-icon"></i><br /><a href="#">golf balls</a></div>
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-ticket blinn-fa-icon"></i><br /><a href="#">tees</a></div>
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-person-half-dress blinn-fa-icon"></i><br /><a href="#">Clothing</a></div>
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-camera-retro blinn-fa-icon"></i><br /><a href="#">Photos</a></div>
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-handshake-angle blinn-fa-icon"></i><br /><a href="#">Volunteers</a></div>
+          <div class="col col-6 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl-2"><i class="fa-solid fa-circle-dollar-to-slot blinn-fa-icon"></i><br /><a href="#">Pricing</a></div>
+        </div>
+      </div>
+      <!-- End Font Awesome Row -->
+
+      <!-- Begin Clip Path-->
+      <div id="custom-clip-path"></div>
+      <!-- End Clip Path -->
+
+      <!-- Begin First Paragraph -->
+      <div class="container paragraph-one headline">
+        <div class="row">
+          <div class="col-12">
+            <p>
+              <img src="images/square/paragraph-one.jpg" class="paragraph-one-img" alt="Member of the modeling agancy" />
+
+              Golf Galaxy is a one-stop destination for golfers of all skill levels, offering a wide selection of top-quality clubs, apparel, and accessories to elevate every aspect of the game. Whether you’re a beginner looking for your first set of clubs or an experienced player seeking the latest technology, the store provides expert guidance and custom fitting services to ensure the perfect match. In addition to retail, Golf Galaxy features professional instruction through in-store lessons and training programs designed to improve swing mechanics, accuracy, and overall performance. With a focus on both product excellence and player development, Golf Galaxy creates an engaging environment where customers can shop, learn, and grow their passion for golf all in one place.
+Beyond its extensive inventory and instruction, Golf Galaxy is committed to creating a personalized and welcoming experience for every customer who walks through the door. Knowledgeable staff members take the time to understand each golfer’s goals, helping them find equipment that not only fits their game but also builds confidence on the course. The store features interactive hitting bays and advanced simulation technology, allowing players to test clubs, analyze swing data, and receive real-time feedback in a fun, low-pressure setting. This hands-on approach ensures that every purchase is informed and tailored to the individual, making a noticeable difference in performance.
+From casual players to serious competitors, Golf Galaxy supports every stage of the golf journey by combining expert advice, cutting-edge technology, and a genuine passion for the sport. The store also fosters a sense of community by hosting events, clinics, and demonstrations that bring golfers together to learn and connect. Whether you’re upgrading your gear, refining your technique, or simply exploring the game for the first time, Golf Galaxy provides the resources, support, and inspiration needed to take your skills to the next level and enjoy the game like never before.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End First Paragraph -->
+
+      <!-- Begin LottieFile -->
+      <div class="container-fluid LottieFiles">
+        <div class="container"
+        <div class="row">
+          <h2>Register for golf lessons</h2>
+          <div class="col-6">
+            <dotlottie-wc src="https://lottie.host/014c2be3-b30f-4463-b60a-aa5ff7f0f99a/X1gL2KhauR.lottie" style="width: 300px; height: 300px" autoplay loop></dotlottie-wc>
+          </div>
+
+          <div class="col-6">
+            <p>
+              Registering for golf lessons at Golf Galaxy connects players with experienced, PGA-certified professionals dedicated to helping every golfer reach their full potential. Whether you’re brand new to the game or looking to refine advanced skills, our instructors provide personalized coaching tailored to your individual goals, experience level, and playing style. Each lesson goes beyond just improving your swing—our pros work closely with you to analyze your mechanics, build consistency, and develop a technique that feels natural and effective. In addition, they guide you through club fitting to ensure your equipment complements your swing, giving you the best possible performance on the course. With a supportive, hands-on approach, our PGA-certified instructors create a comfortable learning environment where every player can build confidence, improve their game, and enjoy the journey of becoming a better golfer.
+          <p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- End LottieFile -->
+
+      <!-- Begin Headshot -->
+      <div class="container text-center headshots">
+        <div class="row">
+          <div class="col col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/square/person-1.jpg" class="cropped" alt="Jordan Avery testimonial" title="Jordan Avery" />
+            <br />
+            <blockquote>
+              "Galaxy Golf takes the game to another level—every swing feels like you're playing among the stars."
+              <cite>— Jordan Avery</cite>
+            </blockquote>
+          </div>
+          <div class="col col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/square/person-2.jpg" class="cropped" alt="Person 2" />
+            <br />
+            <blockquote>
+              "From beginner lessons to pro-level gear, Galaxy Golf makes improving your game an out-of-this-world experience."
+              <cite>— Riley Carter</cite>
+            </blockquote>
+          </div>
+          <div class="col col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/square/person-3.jpg" class="cropped" alt="Person 3" />
+            <br />
+            <blockquote>
+              "It's more than just golf—it's a place where passion, precision, and a little cosmic energy come together."
+              <cite>— Taylor Quinn</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- End Headshot -->
+    </main>
+
+    <!-- begin footer -->
+    <footer-component></footer-component>
+    <!-- end footer -->
+    <section>
+      <!-- jQuery CDN JS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <!-- Bootstrap CDN JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <!-- LottieFile CDN JS -->
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.10/dist/dotlottie-wc.js" type="module"></script>
+
+      <!-- ScrollReveal CDN JS -->
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+      <!-- Local JS File with Header -->
+      <script src="components/js/header.js"></script>
+
+      <!-- Local JS File with Footer -->
+      <script src="components/js/footer.js"></script>
+
+      <!-- local JS File -->
+      <script src="js/scripts.js"></script>
+    </section>
+  </body>
+</html>

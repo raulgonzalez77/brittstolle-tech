@@ -1,0 +1,93 @@
+@import 'global.css';
+@import 'main.css';
+
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000 !important;
+  }
+  
+
+p {
+    font-family: var(--fontFamily) !important;
+}
+
+.blinn-fa-icon {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+
+
+.blinn-fa-icon:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+.blinn-fa-container a {
+    color: #ffffff !important;
+}
+
+.blinn-fa-container {
+    background-color: var(--secondaryColor) !important;
+    padding: 50px;
+}
+
+.paragraph-one {
+    position: relative;
+    margin-top: -80px;
+    font-family: var(--fontFamily) !important;
+}
+
+.paragraph-one-img {
+    position: relative;
+    float: right;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+
+
+#custom-clip-path {
+    width: 100%;
+    height: 280px;
+    background-color: var(--secondaryColor) !important;
+    clip-path: polygon(0 0, 0 30%, 100% 0);
+    position: relative;
+    margin-top: -5px;
+}
+
+.cropped {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    border: 10px solid var(--accentColor) !important;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.headshots {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.lottiefiles {
+    background-color: var(--accentColor);
+    padding: 25px;
+    color:#ffffff !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lottiefiles h2 {
+    color: #ffffff !important;
+}
+
+.lottiefiles p {
+    color: #ffffff !important;
+}
